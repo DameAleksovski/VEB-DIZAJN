@@ -1,0 +1,114 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff4500;
+    padding: 10px 0;
+    width: 100%;
+    top: 90px;
+    z-index: 1000;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: #ffa07a;
+}
+section {
+    padding: 20px;
+    margin: 140px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 550px;
+}
+section h2 {
+    margin-top: 0;
+    font-family: 'Lobster', cursive;
+    color: #ff4500;
+}
+.bio-container {
+    display: flex;
+    align-items: center;
+}
+.bio-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: -10px 0 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 0 0 10px;
+    flex: 1;
+}
+.bio-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio-image img {
+    width: 50%;
+    height: 40%;
+    border: 5px solid #ff6347;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+.hobby-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hobby-box {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #ff4500;
+    border-radius: 10px;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-list li img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#education{
+    background-image: url("slika5.jpg");
+}
